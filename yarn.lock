@@ -646,6 +646,11 @@ async-each@^1.0.0:
   resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
   integrity sha1-GdOGodntxufByF04iu28xW0zYC0=
 
+async-each@^1.0.1:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/async-each/-/async-each-1.0.3.tgz#b727dbf87d7651602f06f4d4ac387f47d91b0cbf"
+  integrity sha512-z/WhQ5FPySLdvREByI2vZiTWwCnF0moMJ1hK9YQwDTHKh6I7/uSckMetoRGb5UBZPC1z0jlw+n/XCgjeH7y1AQ==
+
 async-limiter@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
@@ -892,7 +897,7 @@ braces@^1.8.2:
     preserve "^0.2.0"
     repeat-element "^1.1.2"
 
-braces@^2.3.0, braces@^2.3.1:
+braces@^2.3.0, braces@^2.3.1, braces@^2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/braces/-/braces-2.3.2.tgz#5979fd3f14cd531565e5fa2df1abfff1dfaee729"
   integrity sha512-aNdbnj9P8PjdXU4ybaWLK2IF3jc/EoDYbC7AazW6to3TRsfXxscC9UXOB5iDiEQrkyIbWp2SLQda4+QAa7nc3w==
@@ -5557,7 +5562,7 @@ methods@~1.1.2:
   resolved "https://registry.yarnpkg.com/methods/-/methods-1.1.2.tgz#5529a4d67654134edcc5266656835b0f851afcee"
   integrity sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
 
-micromatch@^2.1.5, micromatch@^2.3.7:
+micromatch@^2.3.7:
   version "2.3.11"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-2.3.11.tgz#86677c97d1720b363431d04d0d15293bd38c1565"
   integrity sha1-hmd8l9FyCzY0MdBNDRUpO9OMFWU=
@@ -5576,7 +5581,7 @@ micromatch@^2.1.5, micromatch@^2.3.7:
     parse-glob "^3.0.4"
     regex-cache "^0.4.2"
 
-micromatch@^3.1.4, micromatch@^3.1.8:
+micromatch@^3.1.10, micromatch@^3.1.4, micromatch@^3.1.8:
   version "3.1.10"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-3.1.10.tgz#70859bc95c9840952f359a068a3fc49f9ecfac23"
   integrity sha512-MWikgl9n9M3w+bpsY3He8L+w9eF9338xRl8IAO5viDizwSzziFEyUzo2xrrloB64ADbTf8uA8vRqqttDTOmccg==
@@ -5870,6 +5875,11 @@ nan@^2.10.0:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.11.0.tgz#574e360e4d954ab16966ec102c0c049fd961a099"
   integrity sha512-F4miItu2rGnV2ySkXOQoA8FKz/SR2Q2sWP0sbTxNxz/tuokeC8WxOhPMcwi0qIyGtVn/rrSeLbvVkznqCdwYnw==
 
+nan@^2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
+  integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
+
 nanomatch@^1.2.9:
   version "1.2.13"
   resolved "https://registry.yarnpkg.com/nanomatch/-/nanomatch-1.2.13.tgz#b87a8aa4fc0de8fe6be88895b38983ff265bd119"
@@ -6049,17 +6059,22 @@ normalize-path@^1.0.0:
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-1.0.0.tgz#32d0e472f91ff345701c15a8311018d3b0a90379"
   integrity sha1-MtDkcvkf80VwHBWoMRAY07CpA3k=
 
-normalize-path@^2.0.0, normalize-path@^2.1.1:
+normalize-path@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-2.0.1.tgz#47886ac1662760d4261b7d979d241709d3ce3f7a"
+  integrity sha1-R4hqwWYnYNQmG32XnSQXCdPOP3o=
+
+normalize-path@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-2.1.1.tgz#1ab28b556e198363a8c1a6f7e6fa20137fe6aed9"
   integrity sha1-GrKLVW4Zg2Oowab35vogE3/mrtk=
   dependencies:
     remove-trailing-separator "^1.0.1"
 
-normalize-path@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-2.0.1.tgz#47886ac1662760d4261b7d979d241709d3ce3f7a"
-  integrity sha1-R4hqwWYnYNQmG32XnSQXCdPOP3o=
+normalize-path@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/normalize-path/-/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
+  integrity sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==
 
 normalize-range@^0.1.2:
   version "0.1.2"
@@ -6626,6 +6641,11 @@ performance-now@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/performance-now/-/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
   integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+
+picomatch@^2.0.4:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.1.tgz#21bac888b6ed8601f831ce7816e335bc779f0a4a"
+  integrity sha512-ISBaA8xQNmwELC7eOjqFKMESB2VIqt4PPDD0nsS95b/9dZXvVKOlz9keMSnoGGKcOHXfTvDD6WMaRoSc9UuhRA==
 
 pify@^2.0.0:
   version "2.3.0"
@@ -7348,6 +7368,15 @@ readdirp@^2.0.0:
     minimatch "^3.0.2"
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
+
+readdirp@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-2.2.1.tgz#0e87622a3325aa33e892285caf8b4e846529a525"
+  integrity sha512-1JU/8q+VgFZyxwrJ+SVIOsh+KywWGpds3NTqikiKpDMZWScmAYyKIgqkO+ARvNWJfXeXR1zxz7aHF4u4CyH6vQ==
+  dependencies:
+    graceful-fs "^4.1.11"
+    micromatch "^3.1.10"
+    readable-stream "^2.0.2"
 
 readline2@^1.0.1:
   version "1.0.1"
@@ -8988,6 +9017,11 @@ upath@^1.0.5:
   resolved "https://registry.yarnpkg.com/upath/-/upath-1.1.0.tgz#35256597e46a581db4793d0ce47fa9aebfc9fabd"
   integrity sha512-bzpH/oBhoS/QI/YtbkqCg6VEiPYjSZtrHQM6/QnJS6OL9pKUFLqb3aFh4Scvwm45+7iAgiMkLhSbaZxUqmrprw==
 
+upath@^1.1.1:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
+  integrity sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg==
+
 uri-js@^4.2.1:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/uri-js/-/uri-js-4.2.2.tgz#94c540e1ff772956e2299507c010aea6c8838eb0"
@@ -9305,41 +9339,44 @@ vsce@1.48.0:
     yauzl "^2.3.1"
     yazl "^2.2.2"
 
-vscode-anymatch@1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/vscode-anymatch/-/vscode-anymatch-1.3.3.tgz#0613d31a949c8025473bbdad848d219f47a44f86"
-  integrity sha512-LQ4vF4BWb9gwAvbMtN+3HC4HKDxLd+ZyWmAjACOdD05O/ZMcgvvnjO24GseEIQ6cWn8gW+Ft08gHFihnQy1eSw==
+vscode-anymatch@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/vscode-anymatch/-/vscode-anymatch-3.0.3.tgz#5a79101e6df7e659a1f070367bc42f190eb4ae76"
+  integrity sha512-qQgfbzJJ5nNShh4jjC3BBekY4d8emcxHFgnqcXwsB/PUKvJPCg7AZYXM7hqS7EDnKrX9tsIFwFMihZ7yut92Qg==
   dependencies:
-    micromatch "^2.1.5"
-    normalize-path "^2.0.0"
+    normalize-path "^3.0.0"
+    picomatch "^2.0.4"
 
-vscode-chokidar@1.6.5:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/vscode-chokidar/-/vscode-chokidar-1.6.5.tgz#f38a1f909fa364a5429a4d4d70ecb40a15b54d0b"
-  integrity sha512-bc5dNF8tW2R+oesYT/Au//qumyd/0HTwSRqVXcg8ADQW1MsWKFwv+IxfSIuCHckaEy4I81GpSDaRWVGQqtsELw==
+vscode-chokidar@2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/vscode-chokidar/-/vscode-chokidar-2.1.6.tgz#fbfb3d27b0ff60cebfacb8dcf644b0ded997f3ce"
+  integrity sha512-8XAGQFtebl5Mxi9UBHlTghuZoUsECiGuTbB2ao5C+n+IKjbQ9TbYypqBvVKvJ04qhvmpXtLAoAqUQUxoYirLzA==
   dependencies:
-    async-each "^1.0.0"
-    glob-parent "^2.0.0"
-    inherits "^2.0.1"
+    async-each "^1.0.1"
+    braces "^2.3.2"
+    glob-parent "^3.1.0"
+    inherits "^2.0.3"
     is-binary-path "^1.0.0"
-    is-glob "^2.0.0"
+    is-glob "^4.0.0"
+    normalize-path "^3.0.0"
     path-is-absolute "^1.0.0"
-    readdirp "^2.0.0"
-    vscode-anymatch "1.3.3"
+    readdirp "^2.2.1"
+    upath "^1.1.1"
+    vscode-anymatch "3.0.3"
   optionalDependencies:
-    vscode-fsevents "0.3.10"
+    vscode-fsevents "1.2.10"
 
 vscode-debugprotocol@1.33.0:
   version "1.33.0"
   resolved "https://registry.yarnpkg.com/vscode-debugprotocol/-/vscode-debugprotocol-1.33.0.tgz#334d2e76ac965f33437a0298441facdcad377d99"
   integrity sha512-d+l4lrEz6OP2kmGpweqe37x9H7icAMV8S4m8azTWGAIlNJxBP4rlSTnZa7NMLcbgqWkWG9lTGY7fJ+rSPaW7yg==
 
-vscode-fsevents@0.3.10:
-  version "0.3.10"
-  resolved "https://registry.yarnpkg.com/vscode-fsevents/-/vscode-fsevents-0.3.10.tgz#65a586c3c6df3080bea20482146963a0f3a2c58d"
-  integrity sha512-iNlCKNgEB9A2JZkLf4h4sJlOS1u0lbe4QjM0Dr0PHaTmsttkJEfOaQeci2Ja1wUA7hUUAF6sNbei/Qp2DacFLw==
+vscode-fsevents@1.2.10:
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/vscode-fsevents/-/vscode-fsevents-1.2.10.tgz#767c1c5759449ddcadf03717cdad767b7f45f2d5"
+  integrity sha512-rRPR+EqDdlcBww4A9iskuw3m8vIhxFuVfHuIF0Q19sejf5JHjg1GjtwG0X7nbOwJxdlnO2THlQjlARcwU9pEJQ==
   dependencies:
-    nan "^2.10.0"
+    nan "^2.14.0"
 
 vscode-jsonrpc@^4.0.0:
   version "4.0.0"
